@@ -125,15 +125,15 @@
 			  	<div class="callbacks_container">
 				    <ul class="rslides" id="slider4">
 				      <li>
-				        <img src="img/slider-images/1slide.png" alt="">
+				        <img src="img/slider-images/foot-clinic.jpg" alt="">
 				        <!-- <p class="caption">This is a caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/2slide.png" alt="">
+				        <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="">
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/3slide.png" alt="">
+				        <img src="img/slider-images/slider_03.png" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
 				      </li>
 				    </ul>
