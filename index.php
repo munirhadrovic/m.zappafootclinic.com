@@ -3,7 +3,7 @@
 	<head>
 
 
-		<!--TEST FOR GITHUB -->
+
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
 
@@ -55,6 +55,9 @@
 		      	});
 
 		    });
+
+            <!--TEST FOR GITHUB but frmo emir account-->
+
 		    $(function () {
 
 		      // Slideshow web
@@ -73,6 +76,10 @@
 		      	});
 
 		    });
+
+
+
+            <!--TEST FOR GITHUB but frmo emir account-->
 		   
 			// $(document).bind ('pageshow', function (e, data) {
 			// 	console.log ($('#page1'));
