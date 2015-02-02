@@ -42,7 +42,7 @@ if(isset($_POST['mail'])){
     $error_message = "error";
   }
   if(strlen($error_message) > 0) {
-    header("Location: index.html#error");
+    header("Location: index.php#error");
   }
 
     function clean_string($string) {
