@@ -304,7 +304,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page3-sub">
-                        <ul id="navigation-menu-page3">
+                            <ul id="navigation-menu-page3">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
