@@ -25,12 +25,19 @@
 #header-image h1{
 margin: 0 12%;
 }
-#menu {
+#menu2 {
   display:none;
 }
-#menu-contact {
+#navigation-menu {
   display:none;
 }
+#navigation-menu-page3 {
+    display:none;
+}
+#menu4 {
+    display:none;
+}
+
 .floatnav{
   position: relative;
   float: left;

@@ -30,15 +30,26 @@
 			   	$( "[data-role='header'], [data-role='footer']" ).toolbar();
 			});	    	
 		   	$(function(){
-				$('#menu').slicknav({
-					prependTo:'#navigation-menu'
+				$('#menu2').slicknav({
+					prependTo:'#navigation-menu-page2'
 				});
 			});
-			$(function(){
-				$('#menu-contact').slicknav({
-					prependTo:'#navigation-menu-contact'
-				});
-			});
+
+            $(function(){
+                $('#navigation-menu-page3').slicknav({
+                    prependTo:'#navigation-menu-page3-sub'
+                });
+            });
+            $(function(){
+                $('#navigation-menu-page4').slicknav({
+                    prependTo:'#navigation-menu-page4-sub'
+                });
+            });
+            $(function(){
+                $('#navigation-menu').slicknav({
+                    prependTo:'#navigation-menu-contact'
+                });
+            });
 			$(function () {
 
 		      // Slideshow 4
@@ -58,7 +69,7 @@
 
 		    });
 
-            <!--TEST FOR GITHUB but frmo emir account-->
+            <!--TEST FOR GITHUB but from emir account-->
 
 		    $(function () {
 
@@ -131,7 +142,7 @@
 				        <!-- <p class="caption">This is a caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="">
+				        <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="">
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
@@ -233,15 +244,16 @@
 		<div data-role="page" id="page2" data-theme="<?php echo $theme ?>">
 			<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<section id="navigation-menu">
-						<ul id="menu">
-							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-							<li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
-							<li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">About US</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
-						</ul>
-					</section>
+					<section id="navigation-menu-page2">
+                        <ul id="menu2">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
 					<img src="img/slider-images/foot-clinic.jpg" alt="SLider" class="images-mobile">
                         <section id="services-text">
                             <h1>Full-spectrum service. Single-minded focus.</h1>
@@ -260,20 +272,18 @@
 		</div>
 		
 	<!-- page 2 ///////////////////////////-->
-		<!-- page 3 ///////////////////////-->
+		<!-- contactform ///////////////////////-->
 
 
 		<div id="contactform" data-role="page" data-theme="<?php echo $theme ?>">
 			<div data-role="main" class="ui-content" >
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<section id="navigation-menu-contact">
-							<ul id="menu-contact">
-								<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
-								<li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
-                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">About US</a></li>
-							</ul>
+                    <section id="navigation-menu-contact">
+                        <ul id="navigation-menu">
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                        </ul>
 					</section>	
 					<form data-parsley-validate method="post" action="mail.php" data-ajax="false">
 						Name: <input type="text" id="naam" name="naam" value="" placeholder="Name" required/><br>
@@ -288,21 +298,29 @@
 			</div>
 		
 		</div>
-<!--page 3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!--contactform///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page3" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                    <section id="navigation-menu">
-                        <ul id="menu">
+                    <section id="navigation-menu-page3-sub">
+                        <ul id="navigation-menu-page3">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="SLider" class="images-mobile">
-
+                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
+                    <section id="insurance-text">
+                        <h1>In-network. Out-of-network. Always within reach.</h1>
+                        <p>Our practice always welcomes new patients. The preferred method is by appointment,
+                            but walk in and emergency visits are accepted, based on availability.</p>
+                        <p>Dr. Zappa is a participating provider with Medicare, Medicaid and most managed care, HMO, PPO and traditional insurance plans,
+                            and he accepts out of netwok patients on an individual basis. He is willing to negotiate fees for out-of-network patients.</p>
+                        </section>
 
                 </div>
 
@@ -314,8 +332,31 @@
         <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                    <section id="navigation-menu">
-                        <ul id="menu">
+                    <section id="navigation-menu-page4-sub">
+                        <ul id="navigation-menu-menu4">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page4">
+                        <ul id="menu4">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
@@ -323,18 +364,19 @@
                             <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="SLider" class="images-mobile">
+                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
 
 
                 </div>
 
             </div>
 
-            <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         </div>
+        <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-		<div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
+
+        <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
 			<div data-role="main" class="ui-content" >	
 			 <p>The contact form was sent succesful!</p>
