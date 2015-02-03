@@ -291,6 +291,7 @@
                     <section id="navigation-menu-contact">
                         <ul id="navigation-menu">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
                             <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
                             <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
@@ -387,7 +388,7 @@
                         </ul>
                     </section>
                     <img src="img/slider-images/Screenshot_2.png" alt="SLider" class="images-mobile">
-                    <section id="officehours-text">
+                    <section id="officehours-text" text-align:center>
                         <h1>Office Hours:</h1>
                         <p>Mon:	1:00-6:00</p>
                         <p>Tues:	Closed</p>
