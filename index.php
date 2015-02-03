@@ -46,6 +46,16 @@
                 });
             });
             $(function(){
+                $('#navigation-menu-page5').slicknav({
+                    prependTo:'#navigation-menu-page5-sub'
+                });
+            });
+            $(function(){
+                $('#navigation-menu-page6').slicknav({
+                    prependTo:'#navigation-menu-page6-sub'
+                });
+            });
+            $(function(){
                 $('#navigation-menu').slicknav({
                     prependTo:'#navigation-menu-contact'
                 });
@@ -127,7 +137,7 @@
 		    <h1><img src="img/ZPA_msthd.gif" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
+		    <h1>Mobile Site<a href="http://zappafootclinic.com/" rel="external">  Clasic Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -280,9 +290,11 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-contact">
                         <ul id="navigation-menu">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
                             <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
                         </ul>
 					</section>	
 					<form data-parsley-validate method="post" action="mail.php" data-ajax="false">
@@ -307,7 +319,7 @@
                             <ul id="navigation-menu-page3">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
-                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
                             <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
                             <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
@@ -333,16 +345,25 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page4-sub">
-                        <ul id="navigation-menu-menu4">
+                        <ul id="navigation-menu-page4">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
-                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
+                    <img src="img/slider-images/slider_03.png" alt="SLider" class="images-mobile">
+                    <section id="physicians-text">
+                        <h1>Giving compassionate care requires the best in care givers.</h1>
+                        <p>The Foot Clinic is home to several of the area's best practicioners, all of whom are focused on providing you with the highest possible level of care:</p>
 
+                            <p> Frank William Zappa, DPM</p>
+                            <p> Nikola Ivancevic, DPM</p>
+                            <p> Jagruti Patel, DPM</p>
+                            <p> Nancy Zomaya, DPM</p>
+                    </section>
 
                 </div>
 
@@ -352,20 +373,30 @@
         </div>
         <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
+        <div data-role="page" id="page5" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                    <section id="navigation-menu-page4">
-                        <ul id="menu4">
+                    <section id="navigation-menu-page5-sub">
+                        <ul id="navigation-menu-page5">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
-                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
-                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
-
+                    <img src="img/slider-images/Screenshot_2.png" alt="SLider" class="images-mobile">
+                    <section id="officehours-text">
+                        <h1>Office Hours:</h1>
+                        <p>Mon:	1:00-6:00</p>
+                        <p>Tues:	Closed</p>
+                        <p>Wed:	9:30-5:00</p>
+                        <p>Thur:	Closed</p>
+                        <p>Fri:	2:00-5:00</p>
+                        <p>Sat:	9:00-1:00</p>
+                        <p>Sun:	Closed</p>
+                    </section>
 
                 </div>
 
@@ -374,6 +405,43 @@
 
         </div>
         <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page6" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page6-sub">
+                        <ul id="navigation-menu-page6">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/photo_Frank-W-Zappa.jpg" alt="SLider" class="images-mobile">
+                    <section id="about-text">
+                        <h1>Frank William Zappa, DPM</h1>
+                        <p>Dr. Zappa graduated from the Scholl College of Podiatric Medicine in June 1966,and has practiced podiatric medicine and surgery for over 40 years.
+                            He was board certified in foot surgery in 1976 and began to plan a new office on the near west side.
+                            The Taylor Street office was opened in 1977 at 1345 West Taylor Street, followed by a move to 1158 West Taylor Street, then finally ending in the
+                            present location at 1226 West Taylor Street.</p>
+                        <p>Dr. Zappa is the section chief of podiatry at St. Anthony hospital where he also serves on the credentials committee.
+                            He is also on staff at multilple free standing surgery centers in the city and suburbs.</p>
+                        <p>Not only has he has been in private practice in both the city and suburbs, Dr. Zappa entered the academic arena, teaching residents in 1984.
+                            He is the program director for the Presence Saint Joseph Hospital/Chicago, IL PMSR+RRA Podiatric Medicine and Surgery Residency with Reconstructive Rearfoot/Ankle Surgery
+                            at 2900 North Lake Shore Drive. This is one of the larger programs of its type in the United States. There are presently fifteen surgical residents completing various years
+                            of their training that total three years of post-graduate study. The residents particpate in surgical procedures at sixteen locations in Illinois and Wisconsin.
+                            Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners following him around.</p>
+                    </section>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page 6//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
         <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
