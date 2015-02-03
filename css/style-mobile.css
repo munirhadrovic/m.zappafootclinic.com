@@ -94,6 +94,37 @@ input#contact-submit-dugme {
   vertical-align: middle;
   z-index: 99;
 }
+#officehours-text {
+    text-align: center;
+}
+#officehours-text h1 {
+    color:#cc6a33;
+}
+#about-text {
+    text-align: center;
+}
+#about-text h1 {
+    color:#cc6a33;
+}
+#physicians-text {
+    text-align: center;
+}
+#physicians-text h1 {
+    color:#cc6a33;
+}
+#insurance-text {
+    text-align: center;
+}
+#insurance-text h1 {
+    color:#cc6a33;
+}
+#services-text {
+    text-align: center;
+}
+#services-text h1 {
+    color:#cc6a33;
+    text-shadow: #cc6a33;
+}
 
 .menu-btn span {
   display: block;

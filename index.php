@@ -137,7 +137,7 @@
 		    <h1><img src="img/ZPA_msthd.gif" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site<a href="http://zappafootclinic.com/" rel="external">  Clasic Site</a></h1>
+		    <h1><a href="http://zappafootclinic.com/" rel="external">  Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -388,7 +388,7 @@
                         </ul>
                     </section>
                     <img src="img/slider-images/Screenshot_2.png" alt="SLider" class="images-mobile">
-                    <section id="officehours-text" text-align:center>
+                    <section id="officehours-text">
                         <h1>Office Hours:</h1>
                         <p>Mon:	1:00-6:00</p>
                         <p>Tues:	Closed</p>
