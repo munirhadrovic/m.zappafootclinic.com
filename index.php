@@ -13,9 +13,11 @@
 		      // Change some settings
 		    	$.mobile.defaultPageTransition = "flip";
 		    	$.mobile.pageLoadErrorMessage = "Whoops!";
-		    	$.mobile.pageLoadErrorMessageTheme = "b";
+		    	$.mobile.pageLoadErrorMessageTheme = "a";
 			});
 		</script>
+        <link rel="stylesheet" href="css/themes/emirtheme1.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 		<script src="js/jquery.mobile-1.4.5.js"></script>
 		<link rel="stylesheet" href="css/slicknav.css" />
 		<script src="js/jquery.slicknav.js"></script>
@@ -111,7 +113,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><img src="img/logo.png" alt="LOGO"></h1>
+		    <h1><img src="img/ZPA_msthd.gif" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
@@ -204,23 +206,23 @@
 					</div>	   
 				</fieldset>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Web Site Design and Development</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Local Seo</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Web Analytics</a></div>
-				</div>
-				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Social Media Marketing</a></div>
-				</div>
-				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
-				</div>				   
+                  <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></div>
+                </div>
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                  <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">About US</a></div>
+                </div>
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                  <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
+                </div>
 		  </div>
 
 		 
@@ -234,13 +236,21 @@
 					<section id="navigation-menu">
 						<ul id="menu">
 							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-							<li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+							<li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+							<li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-					<img src="img/web-design/web-design01.jpg" alt="SLider" class="images-mobile">	   
-					
+					<img src="img/slider-images/foot-clinic.jpg" alt="SLider" class="images-mobile">
+                        <section id="services-text">
+                            <h1>Full-spectrum service. Single-minded focus.</h1>
+                                <p>The Foot Clinic is built on the best in compassionate care. Every effort is made to treat you so you feel comfortable during your visit. Our office has x-ray,
+                                    physical therapy, and laboratory collection services on site. The general practice environment provides treatment for all foot and ankle problems ranging from
+                                    routine monthly care, to fracture reduction and surgical remedy for common foot and ankle disorders. Diabetic foot care education and wound care treatment is a
+                                    high priority in our practice. A growing part of podiatric medicine—and a personal area of Dr. Zappa's personal interest and expertise—are custom orthotics,
+                                    sports medicine and work related injuries.</p>
+                        </section>
 
 				</div>
 
@@ -259,9 +269,10 @@
 					<section id="navigation-menu-contact">
 							<ul id="menu-contact">
 								<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Web Design</a></li>
-								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Web Analytics</a></li>
+								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+								<li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">About US</a></li>
 							</ul>
 					</section>	
 					<form data-parsley-validate method="post" action="mail.php" data-ajax="false">
@@ -278,6 +289,51 @@
 		
 		</div>
 <!--page 3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page3" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu">
+                        <ul id="menu">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="SLider" class="images-mobile">
+
+
+                </div>
+
+            </div>
+            <!--page 3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        </div>
+        <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu">
+                        <ul id="menu">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About US</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.jpg" alt="SLider" class="images-mobile">
+
+
+                </div>
+
+            </div>
+
+            <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        </div>
+
 		<div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
 			<div data-role="main" class="ui-content" >	
