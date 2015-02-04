@@ -43,6 +43,16 @@ margin: 0 12%;
 #navigation-menu-page6 {
     display:none;
 }
+#navigation-menu-page7 {
+    display:none;
+}
+#navigation-menu-page8 {
+    display:none;
+}
+#navigation-menu-page9 {
+    display:none;
+}
+
 
 .floatnav{
   position: relative;
@@ -272,4 +282,8 @@ input#contact-submit-dugme {
 
 #slider3-pager a {
   padding: 0;
+}
+.veliko-dugme {
+    height: 50px;
+    line-height: 3em;
 }

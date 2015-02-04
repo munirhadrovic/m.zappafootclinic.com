@@ -4,5 +4,5 @@
 	$skracenica=""; // AKo ne znate skracenicu ostavite praznu
 	$telephone=3122433769;// Broj koji se poziva na dugme CALL US
 	$theme="a";//Thema koja se aplicira na sve
-	$transitionefect="fade"; //kucate tranziciju koju zelite na stranama . Vrste tranzicija : "fade", "flip", "pop", "slide", "slidedown", "slideup"
+	$transitionefect="pop"; //kucate tranziciju koju zelite na stranama . Vrste tranzicija : "fade", "flip", "pop", "slide", "slidedown", "slideup"
 ?>

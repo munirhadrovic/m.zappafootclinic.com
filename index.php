@@ -56,6 +56,21 @@
                 });
             });
             $(function(){
+                $('#navigation-menu-page7').slicknav({
+                    prependTo:'#navigation-menu-page7-sub'
+                });
+            });
+            $(function(){
+                $('#navigation-menu-page8').slicknav({
+                    prependTo:'#navigation-menu-page8-sub'
+                });
+            });
+            $(function(){
+                $('#navigation-menu-page9').slicknav({
+                    prependTo:'#navigation-menu-page9-sub'
+                });
+            });
+            $(function(){
                 $('#navigation-menu').slicknav({
                     prependTo:'#navigation-menu-contact'
                 });
@@ -164,7 +179,7 @@
 			    <!-- Jssor Slider End -->
 				<fieldset class="ui-grid-a" data-theme="<?php echo $theme ?>">
 					<!-- OVDJE SE UPISUJE BROJ TELEFONA KOJI TREBA POZVATI  -->
-					<div class="ui-block-a"><a class="ui-btn ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone ?>">Call US</a></div>
+					<div class="ui-block-a"><a class="ui-btn veliko-dugme ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone ?>">Call US</a></div>
 					<!-- ovdje se upisuje grad i adresa iz koje  -->
 					<div class="ui-block-b" id="findUS">
 						<script>
@@ -173,8 +188,8 @@
 								console.log("Android uslo");
 								var prostordugme=document.getElementById('findUS');
 								var dugme= document.createElement('a');
-								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
-								dugme.setAttribute('href',"geo:0,0?q=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>");
+								dugme.setAttribute('class', "ui-btn veliko-dugme ui-icon-location ui-btn-icon-left buttons-radius" );
+								dugme.setAttribute('href',"geo:0,0?q=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>" );
 								dugme.innerHTML="Find US";
 								prostordugme.appendChild(dugme);
 							}
@@ -182,7 +197,7 @@
 								console.log("Iphone ");
 								var prostordugme=document.getElementById('findUS');
 								var dugme= document.createElement('a');
-								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
+								dugme.setAttribute('class', "ui-btn veliko-dugme ui-icon-location ui-btn-icon-left buttons-radius");
 								dugme.setAttribute('href',"http://maps.google.com/?daddr=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?> ");
 								dugme.innerHTML="Find US";
 								prostordugme.appendChild(dugme);
@@ -208,7 +223,7 @@
 								console.log("nije nigdje uslo default ")
 								var prostordugme=document.getElementById('findUS');
 								var dugme= document.createElement('a');
-								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
+								dugme.setAttribute('class', "ui-btn veliko-dugme ui-icon-location ui-btn-icon-left buttons-radius");
 								dugme.setAttribute('href',"geo:0,0?q=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>");
 								dugme.innerHTML="Find US";
 								prostordugme.appendChild(dugme);
@@ -221,8 +236,8 @@
 							// }
 
 						</script>
-						
-						
+
+
 
 					</div>	   
 				</fieldset>
@@ -305,7 +320,7 @@
 						Subject: <input type="text" id="onderwerp" name="onderwerp" value="" placeholder="Subject" required/><br>
 						Message:<br>
 						<textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
-						<input type="submit" value="Send" name="submit" class="btn">
+                        <button type="submit" value="Send" name="submit" class="btn ui-btn ui-input-btn ui-corner-all ui-shadow">Send</button>
 					</form>
                     <img src="img/slider-images/Screenshot_3.png" alt="SLider" class="images-mobile">
 				</div>
@@ -361,10 +376,11 @@
                         <h1>Giving compassionate care requires the best in care givers.</h1>
                         <p>The Foot Clinic is home to several of the area's best practicioners, all of whom are focused on providing you with the highest possible level of care:</p>
 
-                            <p> Frank William Zappa, DPM</p>
-                            <p> Nikola Ivancevic, DPM</p>
-                            <p> Jagruti Patel, DPM</p>
-                            <p> Nancy Zomaya, DPM</p>
+                            <p><a href="#page6" data-transition="<?php echo $transitionefect ?>"> >> Frank William Zappa, DPM</a></p>
+                            <p><a href="#page7" data-transition="<?php echo $transitionefect ?>"> >> Nikola Ivancevic, DPM</a></p>
+                            <p><a href="#page8" data-transition="<?php echo $transitionefect ?>"> >> Jagruti Patel, DPM</a></p>
+                            <p><a href="#page9" data-transition="<?php echo $transitionefect ?>"> >> Nancy Zomaya, DPM</a></p>
+
                     </section>
 
                 </div>
@@ -388,16 +404,24 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Screenshot_2.png" alt="SLider" class="images-mobile">
+                        <img src="img/slider-images/Screenshot_2.png" alt="SLider" class="images-mobile">
                     <section id="officehours-text">
-                        <h1>Office Hours:</h1>
-                        <p>Mon:	1:00-6:00</p>
-                        <p>Tues:	Closed</p>
-                        <p>Wed:	9:30-5:00</p>
-                        <p>Thur:	Closed</p>
-                        <p>Fri:	2:00-5:00</p>
-                        <p>Sat:	9:00-1:00</p>
-                        <p>Sun:	Closed</p>
+                        <h1>The Foot Clinic Office Hours:</h1>
+                            <p>Mon:	1:00-6:00</p>
+                            <p>Tues:	Closed</p>
+                            <p>Wed:	9:30-5:00</p>
+                            <p>Thur:	Closed</p>
+                            <p>Fri:	2:00-5:00</p>
+                            <p>Sat:	9:00-1:00</p>
+                            <p>Sun:	Closed</p>
+                        <h1>Oak Lawn Office Hours:</h1>
+                            <p>Mon:	9:00-5:00</p>
+                            <p>Tues:	9:00-2:00</p>
+                            <p>Wed:	Closed</p>
+                            <p>Thur:	2:00-6:00</p>
+                            <p>Fri:	9:00-1:00</p>
+                            <p>Sat:	8:00-12:00</p>
+                            <p>Sun:	Closed</p>
                     </section>
 
                 </div>
@@ -434,7 +458,22 @@
                             He is the program director for the Presence Saint Joseph Hospital/Chicago, IL PMSR+RRA Podiatric Medicine and Surgery Residency with Reconstructive Rearfoot/Ankle Surgery
                             at 2900 North Lake Shore Drive. This is one of the larger programs of its type in the United States. There are presently fifteen surgical residents completing various years
                             of their training that total three years of post-graduate study. The residents particpate in surgical procedures at sixteen locations in Illinois and Wisconsin.
-                            Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners following him around.</p>
+                            Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners
+                            following him around.</p>
+                        <p><a href="#page7" data-transition="<?php echo $transitionefect ?>"> >> Nikola Ivancevic, DPM</a></p>
+                        <p><a href="#page8" data-transition="<?php echo $transitionefect ?>"> >> Jagruti Patel, DPM</a></p>
+                        <p><a href="#page9" data-transition="<?php echo $transitionefect ?>"> >> Nancy Zomaya, DPM</a></p>
+                            <h3>The Foot Clinic has spent thirty years as part of the Taylor Street community. From chronic foot and ankle symptoms to complex surgical procedures,
+                                Dr. Zappa and his associates provide individual treatment of common foot disorders, diabetics,
+                                as well as sport and work-related injuries. The Foot Clinic is dedicated to providing you with  most comprehensive care available.</h3>
+
+                            <h1>We have two Chicagoland locations.</h1>
+                                 <h3>The Foot Clinic</h3>
+                                    <p>1226 W. Taylor St., Chicago, IL 60607</p>
+                                    <p>312-243-3769 voice   |   312-243-3840 fax</p>
+                                <h3>Oak Lawn Lower Extremity Associates, P.C.</h3>
+                                    <p>4701 West 95th Street, Ste #1, Oak Lawn, IL 60453</p>
+                                    <p>708-425-4950 voice   |   708-425-0109 fax</p>
                     </section>
 
                 </div>
@@ -444,6 +483,108 @@
 
         </div>
         <!--page 6//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page7" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page7-sub">
+                        <ul id="navigation-menu-page7">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+
+                    <section id="about-text">
+                        <h1>Nikola Ivancevic, DPM</h1>
+                        <p>Dr. Ivancevic received his B.A. in biological sciences and Doctor of Podiatric Medicine degree at Dr. Scholl College of Podiatric Medicine, Chicago, Illinois,
+                            in 1996. He completed a one-year primary podiatric medicine residency at Illinois Masonic Hospital, Chicago Illinois, 1996-1997. He also completed a one-year podiatric
+                            surgical residency at former Columbus Hospital, Chicago Illinois, 1997-1998. Dr. Ivancevic is ABLES podiatric medicine board certified and surgical board qualified. Dr.
+                            Ivancevic has been in private practice at 1130 and 1226 west Taylor Street, Chicago Illinois, and 135 South Palmer Street,
+                            suite 105, Elmhurst Illinois, currently for nine years. He currently practices in the Physician Center and has privileges at St. Anthony Hospital, Chicago Illinois.</p>
+                        <p>Dr. Ivancevic treats all diseases and surgery of the foot to all ages. He services many homes and senior centers throughout the state of Illinois and Wisconsin, along with
+                            a significant amount of housecalls to the elderly in Chicago, western, southern and northern suburbs of Illinois.</p>
+
+                    </section>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page 7//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!--page 8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page8" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page8-sub">
+                        <ul id="navigation-menu-page8">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/photo_Jagruti-Patel.jpg" alt="SLider" class="images-mobile">
+                    <section id="about-text">
+                        <h1>Jagruti Patel, DPM</h1>
+                        <p>Dr. Patel is a native of Chicago and received her B.S. from the University of Illinois.
+                            She completed her Doctor of Podiatric Medicine degree (DPM) from New York College of Podiatric Medicine in New York City.</p>
+                        <p>Dr. Patel completed a 3 year podiatric medicine and surgical residency at St. Joseph Hospital in Chicago, Il with a focus on foot and
+                            ankle reconstructive surgery and diabetic wound care. Dr. Patel also served as Chief Resident throughout her residency.</p>
+                        <p>Dr. Patel’s professional interest is in General Podiatry, including bunions and hammertoes, with special interest in forefoot surgery.
+                            She also treats pediatric and adult foot conditions requiring custom made orthotics.</p>
+                        <p>Dr. Patel is a member of the American Podiatric Medical Association and the Illinois Podiatric Medical Association.</p>
+                        <p>Dr. Patel enjoys traveling, exploring new restaurants and is a big Chicago sports fan.</p>
+                    </section>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page 8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!--page 9///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page9" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page9-sub">
+                        <ul id="navigation-menu-page9">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/photo_Nancy-Zomaya.jpg" alt="SLider" class="images-mobile">
+                    <section id="about-text">
+                        <h1>Nancy Zomaya, DPM</h1>
+                        <p>Dr. Zomaya graduated from the Scholl College of Podiatric Medicine at Rosalind Franklin University of Medicine & Science located in North Chicago, IL.
+                            She then completed a three year podiatric medicine and surgery residency at Saint Joseph Hospital, IL, where she gained a comprehensive background in foot
+                            and ankle surgery. During her residency training, she served as Chief Resident of the podiatry program and maintained an active role in teaching podiatric
+                            students and junior residents while also participating in research. Currently in private practice, Dr. Zomaya is also an active member of the teaching faculty
+                            for the podiatry residents at Presence Saint Joseph Hospital. Dr. Zomaya treats all diseases of the foot and ankle in both children and adults and is accepting new patients.
+                        </p>
+                    </section>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page 9//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
         <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
