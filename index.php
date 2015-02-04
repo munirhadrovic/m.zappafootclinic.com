@@ -148,7 +148,7 @@
 			  	<div class="callbacks_container">
 				    <ul class="rslides" id="slider4">
 				      <li>
-				        <img src="img/slider-images/foot-clinic.jpg" alt="">
+				        <img src="img/slider-images/Screenshot_4.png" alt="">
 				        <!-- <p class="caption">This is a caption</p> -->
 				      </li>
 				      <li>
@@ -264,7 +264,7 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-					<img src="img/slider-images/foot-clinic.jpg" alt="SLider" class="images-mobile">
+					<img src="img/slider-images/Screenshot_4.png" alt="SLider" class="images-mobile">
                         <section id="services-text">
                             <h1>Full-spectrum service. Single-minded focus.</h1>
                                 <p>The Foot Clinic is built on the best in compassionate care. Every effort is made to treat you so you feel comfortable during your visit. Our office has x-ray,
@@ -307,6 +307,7 @@
 						<textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
 						<input type="submit" value="Send" name="submit" class="btn">
 					</form>
+                    <img src="img/slider-images/Screenshot_3.png" alt="SLider" class="images-mobile">
 				</div>
 			</div>
 		
