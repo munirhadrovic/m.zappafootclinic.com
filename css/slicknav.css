@@ -30,6 +30,14 @@
 
 .slicknav_menu {
     font-size:16px;
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #cc6a33 51%, #fb955e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#cc6a33), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#cc6a33 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #feccb1 0%,#f17432 50%,#cc6a33 51%,#fb955e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #feccb1 0%,#f17432 50%,#cc6a33 51%,#fb955e 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#cc6a33 51%,#fb955e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
 }
 /* Button */
 .slicknav_btn {
@@ -51,10 +59,7 @@
 .slicknav_menu .slicknav_icon-bar {
   background-color: #f5f5f5;
 }
-.slicknav_menu {
-    background:#cc6a33;
-    padding:5px;
-}
+
 .slicknav_nav {
     color:#fff;
     margin:0;

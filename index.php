@@ -279,7 +279,7 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-					<img src="img/slider-images/Screenshot_4.png" alt="SLider" class="images-mobile">
+					<img src="img/slider-images/Screenshot_5.png" alt="SLider" class="images-mobile">
                         <section id="services-text">
                             <h1>Full-spectrum service. Single-minded focus.</h1>
                                 <p>The Foot Clinic is built on the best in compassionate care. Every effort is made to treat you so you feel comfortable during your visit. Our office has x-ray,
@@ -389,7 +389,7 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/Think-Feet-Family-Foot-Clinic.png" alt="SLider" class="images-mobile">
+                    <img src="img/slider-images/Screenshot_7.png" alt="SLider" class="images-mobile">
                     <section id="insurance-text">
                         <h1>In-network. Out-of-network. Always within reach.</h1>
                         <p>Our practice always welcomes new patients. The preferred method is by appointment,
@@ -418,7 +418,7 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/slider_03.png" alt="SLider" class="images-mobile">
+                    <img src="img/slider-images/Screenshot_6.png" alt="SLider" class="images-mobile">
                     <section id="physicians-text">
                         <h1>Giving compassionate care requires the best in care givers.</h1>
                         <p>The Foot Clinic is home to several of the area's best practicioners, all of whom are focused on providing you with the highest possible level of care:</p>
@@ -559,9 +559,11 @@
                                 as well as sport and work-related injuries. The Foot Clinic is dedicated to providing you with  most comprehensive care available.</h3>
 
                             <h1>We have two Chicagoland locations.</h1>
+                        <img src="img/slider-images/foot_map.gif" alt="SLider" class="images-mobile">
                                  <h3>The Foot Clinic</h3>
                                     <p>1226 W. Taylor St., Chicago, IL 60607</p>
                                     <p>312-243-3769 voice   |   312-243-3840 fax</p>
+                        <img src="img/slider-images/oak_map.gif" alt="SLider" class="images-mobile">
                                 <h3>Oak Lawn Lower Extremity Associates, P.C.</h3>
                                     <p>4701 West 95th Street, Ste #1, Oak Lawn, IL 60453</p>
                                     <p>708-425-4950 voice   |   708-425-0109 fax</p>
