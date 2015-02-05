@@ -52,6 +52,9 @@ margin: 0 0%;
 #navigation-menu-page9 {
     display:none;
 }
+.hidden {
+    display:none;
+}
 
 
 .floatnav{

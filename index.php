@@ -71,6 +71,11 @@
                 });
             });
             $(function(){
+                $('#navigation-menu-page10').slicknav({
+                    prependTo:'#navigation-menu-page10-sub'
+                });
+            });
+            $(function(){
                 $('#navigation-menu').slicknav({
                     prependTo:'#navigation-menu-contact'
                 });
@@ -174,6 +179,14 @@
 				        <img src="img/slider-images/slider_03.png" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
 				      </li>
+                        <li>
+                            <img src="img/slider-images/Screenshot_8.png" alt="">
+                            <!-- <p class="caption">The 4 caption</p> -->
+                        </li>
+                        <li>
+                            <img src="img/slider-images/Screenshot_1.png" alt="">
+                            <!-- <p class="caption">The 5 caption</p> -->
+                        </li>
 				    </ul>
 			    </div>
 			    <!-- Jssor Slider End -->
@@ -425,7 +438,7 @@
 
                         <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                             <div class="ui-block-a buttons-semir ">
-                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page10" data-transition="<?php echo $transitionefect ?>">
                                     Frank William Zappa, DPM
                                 </a>
                             </div>
@@ -516,48 +529,12 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/slider-images/photo_Frank-W-Zappa.jpg" alt="SLider" class="images-mobile">
+
                     <section id="about-text">
-                        <h1>Frank William Zappa, DPM</h1>
-                        <p>Dr. Zappa graduated from the Scholl College of Podiatric Medicine in June 1966,and has practiced podiatric medicine and surgery for over 40 years.
-                            He was board certified in foot surgery in 1976 and began to plan a new office on the near west side.
-                            The Taylor Street office was opened in 1977 at 1345 West Taylor Street, followed by a move to 1158 West Taylor Street, then finally ending in the
-                            present location at 1226 West Taylor Street.</p>
-                        <p>Dr. Zappa is the section chief of podiatry at St. Anthony hospital where he also serves on the credentials committee.
-                            He is also on staff at multilple free standing surgery centers in the city and suburbs.</p>
-                        <p>Not only has he has been in private practice in both the city and suburbs, Dr. Zappa entered the academic arena, teaching residents in 1984.
-                            He is the program director for the Presence Saint Joseph Hospital/Chicago, IL PMSR+RRA Podiatric Medicine and Surgery Residency with Reconstructive Rearfoot/Ankle Surgery
-                            at 2900 North Lake Shore Drive. This is one of the larger programs of its type in the United States. There are presently fifteen surgical residents completing various years
-                            of their training that total three years of post-graduate study. The residents particpate in surgical procedures at sixteen locations in Illinois and Wisconsin.
-                            Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners
-                            following him around.</p>
-                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                            <div class="ui-block-a buttons-semir ">
-                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page7" data-transition="<?php echo $transitionefect ?>">
-                                    Nikola Ivancevic, DPM
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                            <div class="ui-block-a buttons-semir ">
-                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page8" data-transition="<?php echo $transitionefect ?>">
-                                    Jagruti Patel, DPM
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                            <div class="ui-block-a buttons-semir ">
-                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page9" data-transition="<?php echo $transitionefect ?>">
-                                    Nancy Zomaya, DPM
-                                </a>
-                            </div>
-                        </div>
+                        <img src="img/slider-images/o.jpg" alt="SLider" class="images-mobile">
                             <h3>The Foot Clinic has spent thirty years as part of the Taylor Street community. From chronic foot and ankle symptoms to complex surgical procedures,
                                 Dr. Zappa and his associates provide individual treatment of common foot disorders, diabetics,
                                 as well as sport and work-related injuries. The Foot Clinic is dedicated to providing you with  most comprehensive care available.</h3>
-
                             <h1>We have two Chicagoland locations.</h1>
                         <img src="img/slider-images/foot_map.gif" alt="SLider" class="images-mobile">
                                  <h3>The Foot Clinic</h3>
@@ -678,7 +655,46 @@
 
         </div>
         <!--page 9//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 10//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+        <div data-role="page" id="page10" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-page10-sub">
+                        <ul id="navigation-menu-page10" class="hidden">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Office Hours</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/slider-images/photo_Frank-W-Zappa.jpg" alt="SLider" class="images-mobile">
+                    <section id="about-text">
+                        <h1>Frank William Zappa, DPM</h1>
+                        <p>Dr. Zappa graduated from the Scholl College of Podiatric Medicine in June 1966,and has practiced podiatric medicine and surgery for over 40 years.
+                            He was board certified in foot surgery in 1976 and began to plan a new office on the near west side.
+                            The Taylor Street office was opened in 1977 at 1345 West Taylor Street, followed by a move to 1158 West Taylor Street, then finally ending in the
+                            present location at 1226 West Taylor Street.</p>
+                        <p>Dr. Zappa is the section chief of podiatry at St. Anthony hospital where he also serves on the credentials committee.
+                            He is also on staff at multilple free standing surgery centers in the city and suburbs.</p>
+                        <p>Not only has he has been in private practice in both the city and suburbs, Dr. Zappa entered the academic arena, teaching residents in 1984.
+                            He is the program director for the Presence Saint Joseph Hospital/Chicago, IL PMSR+RRA Podiatric Medicine and Surgery Residency with Reconstructive Rearfoot/Ankle Surgery
+                            at 2900 North Lake Shore Drive. This is one of the larger programs of its type in the United States. There are presently fifteen surgical residents completing various years
+                            of their training that total three years of post-graduate study. The residents particpate in surgical procedures at sixteen locations in Illinois and Wisconsin.
+                            Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners
+                            following him around.</p>
+                    </section>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!--page 10//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
