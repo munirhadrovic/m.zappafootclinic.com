@@ -157,7 +157,7 @@
 		    <h1><a href="http://m.zappafootclinic.com/" rel="external"><img src="img/ZPA_msthd.gif" alt="LOGO"></a></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><a href="http://zappafootclinic.com/" rel="external">  Desktop Site</a></h1>
+		    <h1><a href="http://zappafootclinic.com/" rel="external">Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -182,10 +182,6 @@
                         <li>
                             <img src="img/slider-images/Screenshot_8.png" alt="">
                             <!-- <p class="caption">The 4 caption</p> -->
-                        </li>
-                        <li>
-                            <img src="img/slider-images/Screenshot_1.png" alt="">
-                            <!-- <p class="caption">The 5 caption</p> -->
                         </li>
 				    </ul>
 			    </div>
