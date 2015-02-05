@@ -283,7 +283,7 @@
 			<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu-page2">
-                        <ul id="menu2">
+                        <ul id="menu2" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
                             <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
@@ -364,7 +364,7 @@
 			<div data-role="main" class="ui-content" >
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-contact">
-                        <ul id="navigation-menu">
+                        <ul id="navigation-menu" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -393,7 +393,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page3-sub">
-                            <ul id="navigation-menu-page3">
+                            <ul id="navigation-menu-page3" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Physicians</a></li>
@@ -422,7 +422,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page4-sub">
-                        <ul id="navigation-menu-page4">
+                        <ul id="navigation-menu-page4" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -479,7 +479,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page5-sub">
-                        <ul id="navigation-menu-page5">
+                        <ul id="navigation-menu-page5" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -520,7 +520,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page6-sub">
-                        <ul id="navigation-menu-page6">
+                        <ul id="navigation-menu-page6" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -558,7 +558,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page7-sub">
-                        <ul id="navigation-menu-page7">
+                        <ul id="navigation-menu-page7" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -593,7 +593,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page8-sub">
-                        <ul id="navigation-menu-page8">
+                        <ul id="navigation-menu-page8" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>
@@ -628,7 +628,7 @@
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu-page9-sub">
-                        <ul id="navigation-menu-page9">
+                        <ul id="navigation-menu-page9" class="hidden">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Services</a></li>
                             <li><a href="#page3" data-transition="<?php echo $transitionefect ?>">Insurance</a></li>

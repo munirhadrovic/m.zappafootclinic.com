@@ -25,33 +25,7 @@
 #header-image h1{
 margin: 0 0%;
 }
-#menu2 {
-  display:none;
-}
-#navigation-menu {
-  display:none;
-}
-#navigation-menu-page3 {
-    display:none;
-}
-#navigation-menu-page4 {
-    display:none;
-}
-#navigation-menu-page5 {
-    display:none;
-}
-#navigation-menu-page6 {
-    display:none;
-}
-#navigation-menu-page7 {
-    display:none;
-}
-#navigation-menu-page8 {
-    display:none;
-}
-#navigation-menu-page9 {
-    display:none;
-}
+
 .hidden {
     display:none;
 }
