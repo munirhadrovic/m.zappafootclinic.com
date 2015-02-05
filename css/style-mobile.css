@@ -23,7 +23,7 @@
 }
 
 #header-image h1{
-margin: 0 12%;
+margin: 0 0%;
 }
 #menu2 {
   display:none;
@@ -68,7 +68,7 @@ margin: 0 12%;
 	padding: 0px 3%;		
 }
 .buttons-radius{
-	border-radius: 25px;
+	border-radius: 15px;
 }
 input#contact-submit-dugme {
   margin-right: 0px !important;

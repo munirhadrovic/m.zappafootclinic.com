@@ -286,7 +286,54 @@
                                     physical therapy, and laboratory collection services on site. The general practice environment provides treatment for all foot and ankle problems ranging from
                                     routine monthly care, to fracture reduction and surgical remedy for common foot and ankle disorders. Diabetic foot care education and wound care treatment is a
                                     high priority in our practice. A growing part of podiatric medicine—and a personal area of Dr. Zappa's personal interest and expertise—are custom orthotics,
-                                    sports medicine and work related injuries.</p>
+                                    sports medicine and work related injuries.
+                                </p>
+                                <p>At the Foot Clinic you will find available services covering preventative care, the treatment of chronic conditions, as well as state-of-the-art podiatric surgical
+                                    procedures. A small sample of the kinds of work we do :
+                                </p>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.emedicinehealth.com/achilles_tendon_rupture/article_em.htm" data-transition="<?php echo $transitionefect ?>">
+                                        Achilles Tendon
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.orthogate.org/patient-education/ankle/ankle-sprain-and-instability" data-transition="<?php echo $transitionefect ?>">
+                                        Ankle Instability
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.podiatrynetwork.com/r_ankle_sprains.cfm" data-transition="<?php echo $transitionefect ?>">
+                                        Ankle Sprains
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.webmd.com/osteoarthritis/guide/arthritis-footcare-shoes" data-transition="<?php echo $transitionefect ?>">
+                                        Arthritic Foot & Ankle Care
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.webmd.com/skin-problems-and-treatments/tc/athletes-foot-medications" data-transition="<?php echo $transitionefect ?>">
+                                        Athletes Foot
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <div class="ui-block-a buttons-semir ">
+                                    <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://epodiatry.com/bunion.htm" data-transition="<?php echo $transitionefect ?>">
+                                        Bunions
+                                    </a>
+                                </div>
+                            </div>
+
                         </section>
 
 				</div>
@@ -320,7 +367,7 @@
 						Subject: <input type="text" id="onderwerp" name="onderwerp" value="" placeholder="Subject" required/><br>
 						Message:<br>
 						<textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
-                        <button type="submit" value="Send" name="submit" class="btn ui-btn ui-input-btn ui-corner-all ui-shadow">Send</button>
+                        <button type="submit" value="Send" name="submit" class="btn ui-btn ui-input-btn ui-corner-all ui-shadow">Submit</button>
 					</form>
                     <img src="img/slider-images/Screenshot_3.png" alt="SLider" class="images-mobile">
 				</div>
@@ -376,10 +423,34 @@
                         <h1>Giving compassionate care requires the best in care givers.</h1>
                         <p>The Foot Clinic is home to several of the area's best practicioners, all of whom are focused on providing you with the highest possible level of care:</p>
 
-                            <p><a href="#page6" data-transition="<?php echo $transitionefect ?>"> >> Frank William Zappa, DPM</a></p>
-                            <p><a href="#page7" data-transition="<?php echo $transitionefect ?>"> >> Nikola Ivancevic, DPM</a></p>
-                            <p><a href="#page8" data-transition="<?php echo $transitionefect ?>"> >> Jagruti Patel, DPM</a></p>
-                            <p><a href="#page9" data-transition="<?php echo $transitionefect ?>"> >> Nancy Zomaya, DPM</a></p>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">
+                                    Frank William Zappa, DPM
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page7" data-transition="<?php echo $transitionefect ?>">
+                                    Nikola Ivancevic, DPM
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page8" data-transition="<?php echo $transitionefect ?>">
+                                    Jagruti Patel, DPM
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page9" data-transition="<?php echo $transitionefect ?>">
+                                    Nancy Zomaya, DPM
+                                </a>
+                            </div>
+                        </div>
 
                     </section>
 
@@ -460,9 +531,29 @@
                             of their training that total three years of post-graduate study. The residents particpate in surgical procedures at sixteen locations in Illinois and Wisconsin.
                             Students and residents participate, under supervision, in the office and at the hospital with Dr. Zappa. You can always find two or three eager learners
                             following him around.</p>
-                        <p><a href="#page7" data-transition="<?php echo $transitionefect ?>"> >> Nikola Ivancevic, DPM</a></p>
-                        <p><a href="#page8" data-transition="<?php echo $transitionefect ?>"> >> Jagruti Patel, DPM</a></p>
-                        <p><a href="#page9" data-transition="<?php echo $transitionefect ?>"> >> Nancy Zomaya, DPM</a></p>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page7" data-transition="<?php echo $transitionefect ?>">
+                                    Nikola Ivancevic, DPM
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page8" data-transition="<?php echo $transitionefect ?>">
+                                    Jagruti Patel, DPM
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir ">
+                                <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page9" data-transition="<?php echo $transitionefect ?>">
+                                    Nancy Zomaya, DPM
+                                </a>
+                            </div>
+                        </div>
                             <h3>The Foot Clinic has spent thirty years as part of the Taylor Street community. From chronic foot and ankle symptoms to complex surgical procedures,
                                 Dr. Zappa and his associates provide individual treatment of common foot disorders, diabetics,
                                 as well as sport and work-related injuries. The Foot Clinic is dedicated to providing you with  most comprehensive care available.</h3>
