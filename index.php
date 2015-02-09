@@ -154,7 +154,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><a href="http://m.zappafootclinic.com/" rel="external"><img src="img/ZPA_msthd.gif" alt="LOGO"></a></h1>
+		    <h1><a href="http://mobilegrows.com/m/zappafootclinic/" rel="external"><img src="img/ZPA_msthd.gif" alt="LOGO"></a></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><a href="http://zappafootclinic.com/" rel="external">Desktop Site</a></h1>
